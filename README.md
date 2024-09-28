@@ -3,7 +3,7 @@
 
 ## Descrição do Projeto
 
-Este projeto consiste em um site dinâmico que serve como uma loja de carros elétricos, desenvolvido sob a orientação do professor @Professor na FIAP. A plataforma foi criada com o objetivo de atender aos entusiastas de veículos sustentáveis, proporcionando uma experiência de navegação intuitiva e moderna.
+Este projeto consiste em um site dinâmico que serve como uma loja de carros elétricos, desenvolvido sob a orientação do professor Wellignton Cidade na FIAP. A plataforma foi criada com o objetivo de atender aos entusiastas de veículos sustentáveis, proporcionando uma experiência de navegação intuitiva e moderna.
 
 O site apresenta informações detalhadas sobre diferentes modelos de carros elétricos e acessórios, destacando a importância da sustentabilidade e inovação no setor automotivo.
 
