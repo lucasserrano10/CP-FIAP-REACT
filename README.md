@@ -1,5 +1,15 @@
 # Projeto: Loja de Carros Elétricos
 
+## Integrantes
+
+Lucas Serrano - RM 555170
+Pedro Nobre - RM 557454
+Caio Rossini - RM 555084
+
+
+
+
+
 
 ## Descrição do Projeto
 
