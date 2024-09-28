@@ -1,0 +1,29 @@
+/* error.css */
+
+.error-container {
+    display: flex;
+    flex-direction: column; /* Alinha os itens em coluna */
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    min-height: 80vh; /* Mínimo de altura para ocupar parte da tela */
+    background-color: #f8d7da; /* Fundo claro para destacar a mensagem */
+    border: 5px solid #dc3545; /* Borda vermelha */
+    border-radius: 15px; /* Arredondando as bordas */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidade */
+    margin: 20px; /* Margem para espaçar do topo */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Centralizando o texto */
+}
+
+.error-title {
+    color: #dc3545; /* Cor do texto */
+    font-size: 2.5rem; /* Aumentando o tamanho do texto */
+    font-weight: bold; /* Destacando o texto */
+    margin-bottom: 10px; /* Espaçamento abaixo do título */
+}
+
+.error-message {
+    color: #666; /* Cor do texto da mensagem */
+    font-size: 1.2rem; /* Tamanho do texto da mensagem */
+    margin-top: 0; /* Removendo margem superior */
+}

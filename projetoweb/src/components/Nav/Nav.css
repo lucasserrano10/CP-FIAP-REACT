@@ -1,0 +1,26 @@
+/* Nav.css */
+
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.navbar {
+    background-color: #33333375 !important;
+    padding: 25px 30px; /* Aumentando o padding */
+}
+
+.react-icon {
+    margin-right: 8px; /* Espaçamento entre o ícone e o texto */
+    color: #1f33d2e0; /* Cor do ícone do React */
+    font-size: 1.5rem; /* Tamanho do ícone */
+}
+
+.nav-link {
+    font-weight: 800; /* Para destacar os links */
+    color: #333; /* Cor do texto dos links */
+}
+
+.nav-link:hover {
+    color: #ff6347; /* Cor ao passar o mouse */
+}
