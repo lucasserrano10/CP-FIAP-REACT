@@ -1,27 +1,34 @@
 import React from 'react';
-import { FaFacebookF, FaTwitter, FaInstagram, FaEnvelope } from 'react-icons/fa'; 
-import '../Footer/Footer.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa'; // Importando os ícones do React Icons
+import './Footer.css'; // Adicione este arquivo CSS para estilos personalizados
 
 const Footer = () => {
     return (
-        <div className='div-footer'>
-            <p>© 2024 Projeto Para Fins Acadêmicos | Todos os direitos reservados.</p>
-            <div className="social-icons">
-                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-                    <FaFacebookF />
-                </a>
-                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-                    <FaTwitter />
-                </a>
-                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-                    <FaInstagram />
-                </a>
-                <a href="mailto:example@example.com" target="_blank" rel="noopener noreferrer">
-                    <FaEnvelope />
-                </a>
+        <footer className="bg-dark text-white mt-5 p-4">
+            <div className="container text-center">
+                <p>&copy; {new Date().getFullYear()} Starship. Todos os direitos reservados.</p>
+                <p>Siga-nos nas redes sociais:</p>
+                <ul className="list-inline">
+                    <li className="list-inline-item">
+                        <a href="#" className="text-white">
+                            <FaFacebook size={24} />
+                        </a>
+                    </li>
+                    <li className="list-inline-item">
+                        <a href="#" className="text-white">
+                            <FaTwitter size={24} />
+                        </a>
+                    </li>
+                    <li className="list-inline-item">
+                        <a href="#" className="text-white">
+                            <FaInstagram size={24} />
+                        </a>
+                    </li>
+                </ul>
             </div>
-        </div>
+        </footer>
     );
-}
+};
 
 export default Footer;

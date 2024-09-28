@@ -27,3 +27,28 @@ h1, h2, h3, h4, h5, h6 {
 button {
     cursor: pointer;
 }
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Faz com que a altura mínima da aplicação seja a altura da tela */
+}
+
+.content {
+    flex-grow: 1; /* Faz com que a área de conteúdo cresça e ocupe o espaço restante */
+}
+
+/* O CSS do footer pode ser o mesmo que você já tinha */
+.div-footer {
+    background-color: #000; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    padding: 20px; /* Padding para espaçar o conteúdo */
+    text-align: center; /* Centraliza o texto */
+    position: relative; /* Para posicionar corretamente */
+    width: 100%; /* Ocupa toda a largura */
+}

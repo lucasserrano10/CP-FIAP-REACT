@@ -1,26 +1,12 @@
 /* Footer.css */
 
-.div-footer {
-    background-color: #000; /* Cor de fundo */
-    color: #fff; /* Cor do texto */
-    padding: 20px; /* Padding para espaçar o conteúdo */
-    text-align: center; /* Centraliza o texto */
-    position: relative; /* Para posicionar corretamente */
-    bottom: 0; /* Para garantir que o footer fique no fundo */
-    width: 100%; /* Ocupa toda a largura */
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: auto;
 }
 
-.social-icons {
-    margin-top: 10px; /* Espaçamento acima dos ícones */
-}
-
-.social-icons a {
-    color: #fff; /* Cor dos ícones */
-    margin: 0 10px; /* Espaçamento horizontal entre os ícones */
-    text-decoration: none; /* Remove underline dos links */
-    font-size: 1.5rem; /* Tamanho dos ícones */
-}
-
-.social-icons a:hover {
-    color: #ff6347; /* Cor ao passar o mouse */
+.list-inline-item {
+    margin: 0 10px;
 }

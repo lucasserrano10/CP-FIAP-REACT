@@ -1,0 +1,17 @@
+/* Home.css */
+
+.bg-primary {
+    background-color: #007bff !important; /* Azul padrão do Bootstrap */
+}
+
+.shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-item img {
+    transition: transform 0.5s ease;
+}
+
+.carousel-item:hover img {
+    transform: scale(1.05);
+}
